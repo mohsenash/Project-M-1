@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Hitelesítő adatok tárolója</string>
+
+    <!-- Dialog title when no certificates were found -->
+    <string name="title_no_certs">Nem található tanusítvány</string>
+
+    <!-- Dialog title when at least one certificate was found -->
+    <string name="title_select_cert">Válasszon tanúsítványt</string>
+
+    <!-- Used at top of dialog to identify requesting application -->
+    <string name="requesting_application">A(z) %s alkalmazás tanúsítványt kér. Válassza ki azt tanúsítványt, amit a jövőben azonosításra használhat.</string>
+
+    <!-- Used at top of dialog to identify requesting server (may be host:port or just host)-->
+    <string name="requesting_server">Kérelmező szerver: %s. Csak akkor bíztosítson hozzáférést a tanusítványhoz, ha megbízik az alkalmazásban.</string>
+
+    <!-- Label of button to send the user to the CertInstaller to install a certificate (arguments are constants for .pfx and .p12) -->
+    <string name="install_new_cert_message">A külső memóriakártyáról %1$s vagy %2$s kiterjesztésű PKCS#12 tanusítvány telepíthető.</string>
+
+    <!-- Label of button to send the user to the CertInstaller to install a certificate -->
+    <string name="install_new_cert_button_label">Telepítés</string>
+
+    <!-- Label of button to send the allow the application certificate request -->
+    <string name="allow_button">Engedélyez</string>
+
+    <!-- Label of button to send the deny the application certificate request -->
+    <string name="deny_button">Megtagad</string>
+
+</resources>
