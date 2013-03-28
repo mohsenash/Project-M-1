@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="8095131950334945205">"计算器"</string>
+    <string name="error" msgid="9197457880925804499">"出错"</string>
+    <string name="del" msgid="6248896117422989693">"删除"</string>
+    <string name="clear" msgid="8103610981407459768">"清除"</string>
+    <string name="sin" msgid="6793866152659175277">"sin"</string>
+    <string name="cos" msgid="6901841853098114414">"cos"</string>
+    <string name="tan" msgid="7957459816738554960">"tan"</string>
+    <string name="e" msgid="1377847800971731483">"e"</string>
+    <string name="ln" msgid="6888500680285403344">"ln"</string>
+    <string name="lg" msgid="873623857385418182">"log"</string>
+    <string name="basic" msgid="7691469861698059753">"基本面板"</string>
+    <string name="advanced" msgid="7122495413742976492">"高级面板"</string>
+    <!-- Menu item text to take user to the screen with matrices. -->
+    <string name="matrix">矩阵面板</string>
+    <!-- Menu item text to take user to the screen with the graph. -->
+    <string name="graph">图表面板</string>
+    <!-- Menu item text to take user to the screen with the function operators. -->
+    <string name="function">函数面板</string>
+    <!-- Menu item text to take user to the screen with the hex digits and operators. -->
+    <string name="hexPanel">十六进制面板</string>
+    <string name="clear_history" msgid="8458043980601165012">"清除历史记录"</string>
+    <string name="text_copied_toast" msgid="5801480710472541833">"文本已复制。"</string>
+
+    <!-- History menu item for copying item -->
+    <string name="copy">复制 \"%s\"</string>
+    <!-- History menu item for removing item from history -->
+    <string name="remove_from_history">从历史记录移除</string>
+
+    <string name="dx">dX</string>
+    <string name="dy">dY</string>
+    <string name="solveForX">求解 X</string>
+    <string name="solveForY">求解 Y</string>
+    <string name="mod">取余数</string>
+
+    <string name="hexDesc">十六进制</string>
+    <string name="binDesc">二进制</string>
+    <string name="decDesc">十进制</string>
+    <string name="determinantDesc">行列式</string>
+    <string name="eigenvalueDesc">特征向量</string>
+    
+    <string name="settings">设置</string>
+    <string name="showHistory">显示历史记录</string>
+    <string name="hideHistory">隐藏历史记录</string>
+
+    <string name="returnToBasic">返回到基本面板</string>
+
+    <string name="pref_about">关于</string>
+</resources>
