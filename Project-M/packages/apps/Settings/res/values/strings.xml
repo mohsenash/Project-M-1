@@ -37,13 +37,13 @@
     <string name="device_info_default">Unknown</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown">
-        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from being enabling development settings.</item>
+        <item quantity="one">You are now just <xliff:g id="step_count">%1$d</xliff:g> step away from being enabling development settings.</item>
         <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being enabling development settings.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on">You have enabled development settings! Have fun</string>
+    <string name="show_dev_on">You have now enabled development settings! Have fun, but don't screw up.</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already">No need, you have already enabled development settings bro.</string>
+    <string name="show_dev_already">No need, you have already enabled development settings, bro.</string>
 
     <!-- Category headings in left-pane header menu --> <skip />
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
@@ -4487,11 +4487,11 @@
     <!-- Anonymous Statistics #CM -->
     <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
     <string name="anonymous_statistics_title">M-stats</string>
-    <string name="anonymous_statistics_summary">Help make Project-M better by opting into anonymous statistics reporting</string>
+    <string name="anonymous_statistics_summary">Help make Project-M better by opting for anonymous statistics reporting</string>
     <string name="anonymous_statistics_warning_title">About</string>
     <string name="anonymous_statistics_warning">Opting into Project-M Statistics will allow non-personal data to be submitted to the
-        developers of Poject-M to track unique installations across devices. The information submitted includes an unique identifier,
-        which does not compromise your privacy or personal data. The data is submitted during each boot.\n\nFor an example of the data that is submitted, tap on Preview Data. So dont worry, I wont look through your pictures. Hehe</string>
+        developers of Project-M to track unique installations across devices. The information submitted includes an unique identifier,
+        which does not compromise your privacy or personal data. The data is submitted during each boot.\n\nFor an example of the data that is submitted, tap on Preview Data. So don't worry, I won't look through your pictures or messages. Hehe</string>
     <string name="enable_reporting_title">Enable reporting</string>
     <string name="preview_data_title">Preview data</string>
     <string name="preview_data_summary">%s</string>
@@ -4982,7 +4982,7 @@ Please dont blame MBQ if your device goes boom</string>
 
     <!-- CM Updater -->
     <string name="cmupdate_settings_title">Project-M updates</string>
-    <string name="cmupdate_settings_summary">Check for, view or install available updates, Not for Project-M yet</string>
+    <string name="cmupdate_settings_summary">Check for, view or install available updates, Not implemented for Project-M yet</string>
 
     <!-- Advanced, Device specific (DeviceParts) settings  -->
     <string name="advanced_settings_title">Advanced</string>
