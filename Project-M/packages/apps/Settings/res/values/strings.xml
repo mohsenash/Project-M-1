@@ -41,7 +41,7 @@
         <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from being enabling development settings.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on">You have now enabled development settings! Have fun, but don't screw up.</string>
+    <string name="show_dev_on">You have now enabled development settings! Have fun, but don\'t screw up.</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
     <string name="show_dev_already">No need, you have already enabled development settings, bro.</string>
 
@@ -4491,7 +4491,7 @@
     <string name="anonymous_statistics_warning_title">About</string>
     <string name="anonymous_statistics_warning">Opting into Project-M Statistics will allow non-personal data to be submitted to the
         developers of Project-M to track unique installations across devices. The information submitted includes an unique identifier,
-        which does not compromise your privacy or personal data. The data is submitted during each boot.\n\nFor an example of the data that is submitted, tap on Preview Data. So don't worry, I won't look through your pictures or messages. Hehe</string>
+        which does not compromise your privacy or personal data. The data is submitted during each boot.\n\nFor an example of the data that is submitted, tap on Preview Data. So don\'t worry, I won't look through your pictures or messages. Hehe</string>
     <string name="enable_reporting_title">Enable reporting</string>
     <string name="preview_data_title">Preview data</string>
     <string name="preview_data_summary">%s</string>
@@ -4982,7 +4982,7 @@ Please dont blame MBQ if your device goes boom</string>
 
     <!-- CM Updater -->
     <string name="cmupdate_settings_title">Project-M updates</string>
-    <string name="cmupdate_settings_summary">Check for, view or install available updates, Not implemented for Project-M yet</string>
+    <string name="cmupdate_settings_summary">Check for, view or install available updates, not yet implemented for Project-M</string>
 
     <!-- Advanced, Device specific (DeviceParts) settings  -->
     <string name="advanced_settings_title">Advanced</string>
